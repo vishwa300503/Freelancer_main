@@ -1,0 +1,61 @@
+.payment-tracking {
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 12px; /* Softer, more rounded corners */
+  padding: 25px; /* Increased padding for better spacing */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+  margin: 30px auto; /* Centered with more margin */
+  max-width: 800px; /* Restrict width for readability */
+}
+
+.payment-tracking h2 {
+  color: #2a2a2a; /* Darker and bolder color */
+  margin-bottom: 20px; /* More space below the title */
+  font-size: 1.8rem; /* Larger font size */
+  font-weight: 600; /* Stronger font weight */
+  text-align: center; /* Center-align title */
+}
+
+.payment-tracking ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.payment-tracking li {
+  background-color: #f9f9f9; /* Light gray background for contrast */
+  border: none; /* Remove border */
+  border-radius: 8px; /* More rounded corners */
+  padding: 15px 20px; /* Increased padding for a spacious feel */
+  margin-bottom: 15px; /* More space between items */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Vertically center items */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.payment-tracking li:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.payment-tracking span {
+  color: #495057; /* Dark gray text */
+  font-size: 1rem; /* Consistent font size */
+  font-weight: 500; /* Slightly bolder text */
+}
+
+.payment-tracking button {
+  background-color: #17a2b8; /* Light blue-green for a fresh look */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 6px; /* More rounded buttons */
+  padding: 8px 15px; /* Increased padding for larger buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9rem; /* Adjusted font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.payment-tracking button:hover {
+  background-color: #138496; /* Darker blue-green on hover */
+  transform: scale(1.05); /* Slight scale-up on hover */
+}

@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1f24; /* Darker modern background */
+  padding: 20px 40px; /* More spacious padding for a modern look */
+  color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for more depth */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth background and shadow transitions */
+}
+
+.navbar:hover {
+  background-color: #11161b; /* Darker background on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 28px; /* Slightly larger font size for branding */
+  font-weight: 700;
+  letter-spacing: 1.5px; /* More spacing for a modern feel */
+  color: #ff5722; /* Bright accent color for the brand */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 30px; /* Increased spacing between links */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #e0e0e0; /* Lighter text color for contrast */
+  font-size: 17px; /* Slightly larger font size */
+  padding: 10px 15px; /* Increased padding for better clickability */
+  border-radius: 6px; /* More rounded corners */
+  transition: color 0.3s, background-color 0.3s, transform 0.2s ease; /* Added smooth transform */
+}
+
+.navbar-links a:hover {
+  color: #ffffff; /* Keep the text color white */
+  background-color: #ff5722; /* Bright accent background on hover */
+}
+
+.navbar-links a:active {
+  transform: scale(0.96); /* More pronounced shrink on click */
+}
+
+a {
+  text-decoration: none;
+  color: #e0e0e0; /* Default link color to match the navbar links */
+}
+
+a:hover {
+  color: #ff5722; /* Bright hover color for links */
+}

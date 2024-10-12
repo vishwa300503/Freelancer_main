@@ -1,0 +1,59 @@
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Light background for a clean look */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+  margin: 20px auto; /* Center the container */
+  width: 100%;
+  max-width: 900px; /* Slightly wider for more content */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.chart-container:hover {
+  transform: scale(1.02); /* Subtle zoom on hover */
+}
+
+.recharts-cartesian-axis-tick text {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  fill: #4a4a4a; /* Darker color for better readability */
+  font-weight: 500; /* Slightly bolder text */
+}
+
+.recharts-bar-rectangle {
+  transition: fill 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.recharts-bar-rectangle:hover {
+  fill: #ff5a36 !important; /* Brighter hover color */
+}
+
+.recharts-tooltip-wrapper {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px; 
+  font-size: 13px;
+  transition: opacity 0.2s ease; 
+}
+
+.recharts-default-tooltip {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.recharts-legend-item text {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  fill: #4f78f7; 
+  font-weight: 600; 
+}
+
+.recharts-legend-item:hover text {
+  fill: #ff5a36; 
+  cursor: pointer; 
+}

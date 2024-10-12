@@ -1,0 +1,75 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding: 30px; /* Increased padding for spacious layout */
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 15px; /* Softer, rounded corners */
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.12); /* Stronger shadow for depth */
+  margin: 30px auto; /* More space around the container */
+  max-width: 1200px;
+  transition: transform 0.3s ease; /* Subtle hover animation */
+}
+
+.dashboard-container:hover {
+  transform: scale(1.01); /* Slight zoom effect on hover */
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px; /* Extra space between header and content */
+}
+
+.dashboard-header h2 {
+  font-size: 2.4rem; /* Larger heading */
+  color: #2a2a2a; /* Slightly darker text */
+  font-weight: 700; /* Stronger font weight */
+  letter-spacing: 1px; /* Added letter spacing for a cleaner look */
+}
+
+.project-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Larger gap between cards */
+  justify-content: center; /* Center cards on the page */
+}
+
+.project-cards-container .card {
+  background-color: #f9fafc; /* Softer card background */
+  border-radius: 12px; /* Rounded corners for a modern feel */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for card pop */
+  padding: 25px; /* Larger padding for a more spaced layout */
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+
+.project-cards-container .card:hover {
+  transform: translateY(-5px); /* Elevate card on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.project-cards-container .card h4 {
+  color: #4f78f7;
+  font-size: 1.3rem; /* Slightly larger font size */
+  margin-bottom: 15px;
+  font-weight: 600; /* Bolder font */
+}
+
+.project-cards-container .card p {
+  color: #666; /* Darker paragraph text */
+  margin: 8px 0; /* Increased margin for better spacing */
+  font-size: 1.1rem; /* Slightly larger text */
+}
+
+.earnings-overview {
+  margin-top: 50px; /* More spacing before earnings overview */
+  text-align: center;
+}
+
+.earnings-overview h3 {
+  font-size: 2rem; /* Larger font size */
+  color: #3a90f7; /* Brighter accent color */
+  margin-bottom: 25px; /* More space under the heading */
+  font-weight: 700; /* Bolder font */
+  letter-spacing: 0.5px; /* Subtle letter spacing */
+}
